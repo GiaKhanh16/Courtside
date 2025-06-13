@@ -1,0 +1,24 @@
+{
+  "originHash" : "1a3f0550b1cad60483c89bac61819bdb09b433c2abbd15bfe259d7f2af3cf7ed",
+  "pins" : [
+    {
+      "identity" : "glur?tab=readme-ov-file",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/joogps/Glur?tab=readme-ov-file",
+      "state" : {
+        "revision" : "9e00ff79da318f2c78b749b1027e54a9d4de2e33",
+        "version" : "1.0.4"
+      }
+    },
+    {
+      "identity" : "swiftuigradientblur",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/unitedadityaa/SwiftUIGradientBlur",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d9cccf84c0b20433c679c0470878205d235e81bb"
+      }
+    }
+  ],
+  "version" : 3
+}
