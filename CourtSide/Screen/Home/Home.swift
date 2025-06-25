@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct Home: View {
+	 @State private var searchText: String = ""
 	 var body: some View {
 			NavigationStack {
 				 List (sampleClubs) { club in
@@ -20,6 +21,7 @@ struct Home: View {
 						}
 				 }
 				 .listStyle(.plain)
+				 .searchable(text: $searchText)
 				 .navigationTitle("My Clubs")
 				 .toolbarBackground(.visible, for: .navigationBar)
 				 .toolbarBackground(
