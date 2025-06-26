@@ -34,6 +34,7 @@ struct AppTab: View {
 			TabView(selection: $currentTab) {
 				 Tab(Tabs.Home.title, systemImage: Tabs.Home.systemImage, value: .Home) {
 						Home()
+						
 				 }
 				 Tab(Tabs.Search.title, systemImage: Tabs.Search.systemImage, value: .Search) {
 						Search()

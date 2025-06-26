@@ -7,6 +7,7 @@ struct Home: View {
 				 List (sampleClubs) { club in
 						NavigationLink {
 							 Booking(club: club)
+									.toolbar(.hidden, for: .tabBar)
 						} label: {
 							 VStack(alignment: .leading, spacing: 8) {
 									Text(club.title)

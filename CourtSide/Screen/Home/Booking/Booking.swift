@@ -113,8 +113,9 @@ struct BookingForm: View {
 				 .padding(.horizontal)
 				 TimeSlotsView(courtName: courtName)
 						.padding(.top, 10)
-				 Button {
-						print("hello world")
+				 NavigationLink {
+						Confirmation()
+							 .toolbar(.hidden, for: .tabBar)
 				 } label: {
 						Text("Book Court")
 							 .foregroundStyle(.white)
@@ -124,6 +125,7 @@ struct BookingForm: View {
 							 .cornerRadius(10)
 				 }
 				 .padding(10)
+
 			}
 			.frame(maxWidth: .infinity, alignment: .leading)
 	 }
